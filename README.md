@@ -52,5 +52,10 @@
    El navegador envía una solicitud POST al servidor con los datos -----> el servidor mapea -busca un match en las rutas de enrutamiento (en urls.py)- para ejecutar la función python correspondiente (en           views.py) -----> los cambios generados por esa función se guardan en la base de datos
 
 5. ¿Qué herramientas o comandos ofrece Django para facilitar el desarrollo de un CRUD? ¿para qué es cada una?
+   - startapp:	Crea una nueva aplicación dentro del proyecto Django
+   - runserver:	Inicia el servidor de desarrollo para probar tu proyecto en el navegador
    - makemigrations:	Detecta los cambios en los modelos y crea archivos de migración
    - migrate:	Aplica las migraciones y crea/modifica la base de datos
+   - createsuperuser:	Crea un usuario administrador para acceder al panel de administración de Django
+   - admin:	Es una herramienta de Django que te permite gestionar modelos (crear, editar, eliminar registros) desde una interfaz web. Solo necesitas registrar tus modelos en admin.py
+   - ModelForm:	Es una clase que genera automáticamente un formulario basado en un modelo, facilitando el manejo de formularios en las vistas.
