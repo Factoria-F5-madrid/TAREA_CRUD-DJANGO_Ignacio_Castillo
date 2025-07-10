@@ -59,3 +59,7 @@
    - createsuperuser:	Crea un usuario administrador para acceder al panel de administración de Django
    - admin:	Es una herramienta de Django que te permite gestionar modelos (crear, editar, eliminar registros) desde una interfaz web. Solo necesitas registrar tus modelos en admin.py
    - ModelForm:	Es una clase que genera automáticamente un formulario basado en un modelo, facilitando el manejo de formularios en las vistas.
+
+6. ¿Cómo funciona el Admin de Django?
+   El Admin de Django es una herramienta incorporada que permite gestionar fácilmente el contenido de tu aplicación desde una interfaz web. Funciona como un panel de administración automático donde puedes crear, leer, actualizar y eliminar registros (CRUD) sin necesidad de escribir código adicional.
+
