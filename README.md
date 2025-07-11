@@ -1,10 +1,11 @@
 # TAREA_CRUD-DJANGO_Ignacio_Castillo
 
 1. ¿Qué es un CRUD y cuál es su propósito en el desarrollo de aplicaciones web?
-   El objetivo principal de un CRUD es permitir a los usuarios interactuar (Crear -Create-, Leer -Read-, Modificar -Update- y Borrar -Delete-) con una base de datos de forma sencilla a través de una interfaz web.
-   Google Docs es un ejemplo de aplicación web que usa una estructura de CRUD, ya que permite crear, leer, modificar y borrar un documento.
+   
+   El objetivo principal de un CRUD es permitir a los usuarios interactuar (Crear -Create-, Leer -Read-, Modificar -Update- y Borrar -Delete-) con una base de datos de forma sencilla a través de una interfaz web. Google Docs es un ejemplo de aplicación web que usa una estructura de CRUD, ya que permite crear, leer, modificar y borrar un documento.
 
 2. ¿Qué son los patrones de arquitectura en desarrollo de software?
+   
    Son soluciones generales y reutilizables para organizar la estructura y los componentes de un sistema de software. No son código específico, sino modelos o guías que ayudan a diseñar aplicaciones robustas,       escalables, mantenibles y que ayudan a separar responsabilidades entre los distintos componentes del sistema.
    - ¿Qué es el patrón MVC (Modelo–Vista–Controlador)?
      Es aquel que separa el software en 3 componentes principales: 1) Modelo	(gestiona los datos, la lógica de negocio, y se comunica con la base de datos), 2) Vista	(muestra la interfaz de usuario. Renderiza       lo que el usuario ve) y 3) Controlador	(recibe las entradas del usuario, las procesa y actualiza el modelo o la vista)
@@ -16,6 +17,7 @@
      MVT
 
 3. ¿Cómo se estructura un proyecto en Django?
+   
    Un proyecto en Django está dividido en proyecto principal y una o más aplicaciones (apps) dentro de dicho proyecto.
 ```   
     mi_proyecto/
@@ -49,9 +51,11 @@
      	Ejecuta lógica o estructuras de control especificadas entre el primer '%' y el segundo '%' (en un archivo html). Ej/ {% for tarea in tareas %}
 
 4. ¿Cuál es el flujo de datos entre un formulario HTML y la base de datos en Django?
-   El navegador envía una solicitud POST al servidor con los datos -----> el servidor mapea -busca un match en las rutas de enrutamiento (en urls.py)- para ejecutar la función python correspondiente (en           views.py) -----> los cambios generados por esa función se guardan en la base de datos
+   
+   El navegador envía una solicitud POST al servidor con los datos -----> el servidor mapea -busca un match en las rutas de enrutamiento (en urls.py)- para ejecutar la función python correspondiente (en views.py) -----> los cambios generados por esa función se guardan en la base de datos
 
 5. ¿Qué herramientas o comandos ofrece Django para facilitar el desarrollo de un CRUD? ¿para qué es cada una?
+   
    - startapp:	Crea una nueva aplicación dentro del proyecto Django
    - runserver:	Inicia el servidor de desarrollo para probar tu proyecto en el navegador
    - makemigrations:	Detecta los cambios en los modelos y crea archivos de migración
@@ -61,5 +65,6 @@
    - ModelForm:	Es una clase que genera automáticamente un formulario basado en un modelo, facilitando el manejo de formularios en las vistas.
 
 6. ¿Cómo funciona el Admin de Django?
+   
    El Admin de Django es una herramienta incorporada que permite gestionar fácilmente el contenido de tu aplicación desde una interfaz web. Funciona como un panel de administración automático donde puedes crear, leer, actualizar y eliminar registros (CRUD) sin necesidad de escribir código adicional.
 
