@@ -41,10 +41,10 @@
 
 ```
 
-   Modelos (models.py)	Definen la estructura de los datos que se guardan en la base de datos. Cada clase representa una tabla.   
-   Vistas (views.py)	Contienen la lógica del servidor: qué hacer con una solicitud y qué respuesta devolver.   
-   Templates (templates/*.html)	Archivos HTML que representan la interfaz visual que ve el usuario. Pueden incluir variables y estructuras de control.   
-   URLs (urls.py)	Conectan las URLs del navegador con las vistas correspondientes. Son el enrutador del proyecto.
+      Modelos (models.py)	Definen la estructura de los datos que se guardan en la base de datos. Cada clase representa una tabla.   
+      Vistas (views.py)	Contienen la lógica del servidor: qué hacer con una solicitud y qué respuesta devolver.   
+      Templates (templates/*.html)	Archivos HTML que representan la interfaz visual que ve el usuario. Pueden incluir variables y estructuras de control.   
+      URLs (urls.py)	Conectan las URLs del navegador con las vistas correspondientes. Son el enrutador del proyecto.
 
    - ¿Para qué se usa el signo “%%” en los templates?
      	Ejecuta lógica o estructuras de control especificadas entre el primer '%' y el segundo '%' (en un archivo html). Ej/ {% for tarea in tareas %}
