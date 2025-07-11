@@ -12,7 +12,7 @@
    - ¿Qué es el patrón MVT (Modelo–Vista–Template)?
      Es una variación del MVC.
    - Diferencias entre MVC y MVT.
-     La diferencia clave radica en cómo se gestionan la lógica del "controlador" o de la "vista" en cada uno. En MVC, el controlador gestiona tanto el modelo como la vista, mientras que en MVT, la vista gestiona      las solicitudes y respuestas HTTP (de lo cual se encargaba el controlador en MVC) y el template se encarga del renderizado (que es la tarea de la vista en MVC). En suma, en MVC, el controlador es el              "cerebro" que orquesta la interacción entre el modelo y la vista. En MVT, la vista está más involucrada en el manejo de solicitudes y la interacción con el modelo (intuyo que esta variación vino de la mano       de la aparición de las webs dinámicas <los formularios http ya no meramente solicitan un fichero html estático, sino que pueden incluir datos -variables- que influirán en el contenido de la respuesta             http>), mientras que el template se ocupa exclusivamente de la capa de presentación.
+     La diferencia clave radica en cómo se gestionan la lógica del "controlador" o de la "vista" en cada uno. En MVC, el controlador gestiona tanto el modelo como la vista, mientras que en MVT, la vista gestiona      las solicitudes y respuestas HTTP (de lo cual se encargaba el controlador en MVC) y el template se encarga del renderizado (que es la tarea de la vista en MVC). En suma, en MVC, el controlador es el "cerebro" que orquesta la interacción entre el modelo y la vista. En MVT, la vista está más involucrada en el manejo de solicitudes y la interacción con el modelo (intuyo que esta variación vino de la mano de la aparición de las webs dinámicas <los formularios http ya no meramente solicitan un fichero html estático, sino que pueden incluir datos -variables- que influirán en el contenido de la respuesta http>), mientras que el template se ocupa exclusivamente de la capa de presentación.
    - ¿Cuál de estos dos patrones se usa en Django?
      MVT
 
@@ -65,7 +65,7 @@
 
 6. ¿Cómo funciona el Admin de Django?
    
-   El Admin de Django es una herramienta incorporada que permite gestionar fácilmente el contenido de tu aplicación desde una interfaz web. Funciona como un panel de administración automático donde puedes crear, leer, actualizar y eliminar registros (CRUD) sin necesidad de escribir código adicional. Hay que crear un usuario administrador para poder acceder al panel (python manage.py createsuperuser) y, en el archivo admin.py de la app, registrar los modelos para que se muestren en el panel (admin.site.register(ClassName). SE accede al panel de admin en el navegador (http://localhost:8000/admin)
+   El Admin de Django es una herramienta incorporada que permite gestionar fácilmente el contenido de tu aplicación desde una interfaz web. Funciona como un panel de administración automático donde puedes crear, leer, actualizar y eliminar registros (CRUD) sin necesidad de escribir código adicional. Hay que crear un usuario administrador para poder acceder al panel (python manage.py createsuperuser) y, en el archivo admin.py de la app, registrar los modelos para que se muestren en el panel (admin.site.register(ClassName). Se accede al panel de admin en el navegador (http://localhost:8000/admin)
 
 
 
