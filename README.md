@@ -40,7 +40,6 @@
     │   └── migrations/        # Archivos para controlar cambios en la base de datos
 
 ```
-
    - Modelos (models.py)	Definen la estructura de los datos que se guardan en la base de datos. Cada clase representa una tabla.   
    - Vistas (views.py)	Contienen la lógica del servidor: qué hacer con una solicitud y qué respuesta devolver.   
    - Templates (templates/*.html)	Archivos HTML que representan la interfaz visual que ve el usuario. Pueden incluir variables y estructuras de control.   
@@ -66,5 +65,7 @@
 
 6. ¿Cómo funciona el Admin de Django?
    
-   El Admin de Django es una herramienta incorporada que permite gestionar fácilmente el contenido de tu aplicación desde una interfaz web. Funciona como un panel de administración automático donde puedes crear, leer, actualizar y eliminar registros (CRUD) sin necesidad de escribir código adicional.
+   El Admin de Django es una herramienta incorporada que permite gestionar fácilmente el contenido de tu aplicación desde una interfaz web. Funciona como un panel de administración automático donde puedes crear, leer, actualizar y eliminar registros (CRUD) sin necesidad de escribir código adicional. Hay que crear un usuario administrador para poder acceder al panel (python manage.py createsuperuser) y, en el archivo admin.py de la app, registrar los modelos para que se muestren en el panel (admin.site.register(ClassName). SE accede al panel de admin en el navegador (http://localhost:8000/admin)
+
+
 
