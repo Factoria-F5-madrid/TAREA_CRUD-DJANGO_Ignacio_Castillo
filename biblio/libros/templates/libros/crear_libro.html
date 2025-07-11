@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Libro</title>
+</head>
+<body>
+    <h1>Crear Libro</h1>
+    <form method="post">
+        {% csrf_token %}<!-- This is a Django template tag that adds a CSRF token to the form. This is a security feature to prevent cross-site request forgery attacks. -->
+        {{ form.as_p }}<!-- This is a Django template tag that renders the form fields as paragraphs. -->
+        <button type="submit">Guardar</button>
+    </form>
+    <a href="{% url 'lista_libros' %}">Cancelar</a>
+</body>
+</html>

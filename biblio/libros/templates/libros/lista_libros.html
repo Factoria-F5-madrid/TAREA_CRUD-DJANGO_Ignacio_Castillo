@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Libros</title>
+</head>
+<body>
+    <h1>Lista de Libros</h1>
+    <ul>
+    {% for libro in libros %}
+        <li><a href="{% url 'detalle_libro' libro.id %}">{{ libro.titulo }}</a></li><!-- This is a Django template tag that generates a URL for the detail view of a book. It uses the name of the URL pattern (detalle_libro) and the book's ID. -->
+    {% endfor %}
+    </ul>
+</body>
+</html>
