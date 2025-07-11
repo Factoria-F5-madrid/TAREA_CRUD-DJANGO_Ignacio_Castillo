@@ -47,7 +47,8 @@
    - URLs (urls.py)	Conectan las URLs del navegador con las vistas correspondientes. Son el enrutador del proyecto.
 
    - ¿Para qué se usa el signo “%%” en los templates?
-     	Ejecuta lógica o estructuras de control especificadas entre el primer '%' y el segundo '%' (en un archivo html). Ej/ {% for tarea in tareas %}
+     
+     Ejecuta lógica o estructuras de control especificadas entre el primer '%' y el segundo '%' (en un archivo html). Ej/ {% for tarea in tareas %}
 
 4. ¿Cuál es el flujo de datos entre un formulario HTML y la base de datos en Django?
    
