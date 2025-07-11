@@ -40,7 +40,7 @@
     │   └── migrations/        # Archivos para controlar cambios en la base de datos
 
 ```
-
+'
       Modelos (models.py)	Definen la estructura de los datos que se guardan en la base de datos. Cada clase representa una tabla.   
       Vistas (views.py)	Contienen la lógica del servidor: qué hacer con una solicitud y qué respuesta devolver.   
       Templates (templates/*.html)	Archivos HTML que representan la interfaz visual que ve el usuario. Pueden incluir variables y estructuras de control.   
