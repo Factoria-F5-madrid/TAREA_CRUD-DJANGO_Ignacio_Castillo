@@ -55,8 +55,8 @@ ROOT_URLCONF = 'biblio.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
+        'DIRS': [],# This is a list of additional directories (absolute paths or relative to your project root) where Django will also look for templates.
+        'APP_DIRS': True,#This tells Django to look for a folder named templates inside each installed app.
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.request',
